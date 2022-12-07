@@ -1,15 +1,15 @@
 #!/bin/bash
-sudo mkdir Namizje
-sudo mkdir Dokumenti
-sudo mkdir Prenosi
-sudo mkdir Slike 
-sudo mkdir Video
-
+mkdir Desktop
+mkdir Documents
+mkdir Downloads
+mkdir Pictures
+mkdir Video
+\
 for i in {1..5}
 do;
 mkdir folder$i;
 done;
-
+\
 for i in {1..5}
 do;
 sudo useradd -m --groups sudo uporabnik$i;
