@@ -6,14 +6,14 @@ sudo mkdir Slike
 sudo mkdir Video
 
 for i in {1..5}
-do
-mkdir folder$i
-done
+do;
+mkdir folder$i;
+done;
 
 for i in {1..5}
-do
-sudo useradd -m --groups sudo uporabnik$i
-done
+do;
+sudo useradd -m --groups sudo uporabnik$i;
+done;
 
 sudo apt install ufw
 sudo apt install git-all
