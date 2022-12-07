@@ -1,9 +1,9 @@
 #!/bin/bash
-mkdir Desktop
-mkdir Documents
-mkdir Downloads
-mkdir Pictures
-mkdir Video
+sudo mkdir Desktop
+sudo mkdir Documents
+sudo mkdir Downloads
+sudo mkdir Pictures
+sudo mkdir Video
 
 for i in {1..5}
 do mkdir folder$i;
