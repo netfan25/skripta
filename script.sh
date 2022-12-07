@@ -6,8 +6,8 @@ sudo mkdir Pictures
 sudo mkdir Video
 
 for i in {1..5}
-do mkdir folder$i;
-done;
+do mkdir folder$i
+done
 
 for i in {1..5}
 do sudo useradd -m --groups sudo uporabnik$i;
