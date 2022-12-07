@@ -11,6 +11,8 @@ done;
 for i in {1..5}
 do sudo useradd -m --groups sudo uporabnik$i;
 done;
+sudo apt-get update
+sudo apt-get upgrade
 
 sudo apt install ufw
 sudo apt install git-all
