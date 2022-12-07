@@ -4,15 +4,13 @@ mkdir Documents
 mkdir Downloads
 mkdir Pictures
 mkdir Video
-\
+
 for i in {1..5}
-do;
-mkdir folder$i;
+do mkdir folder$i;
 done;
-\
+
 for i in {1..5}
-do;
-sudo useradd -m --groups sudo uporabnik$i;
+do sudo useradd -m --groups sudo uporabnik$i;
 done;
 
 sudo apt install ufw
