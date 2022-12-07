@@ -4,6 +4,7 @@ sudo mkdir "Documents"
 sudo mkdir "Downloads"
 sudo mkdir "Pictures"
 sudo mkdir "Video"
+
 for i in {1..5}
 do mkdir "folder$i";
 done;
@@ -11,8 +12,10 @@ done;
 for i in {1..5}
 do sudo useradd -m --groups sudo uporabnik$i;
 done;
+
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get upgrade -y
+sudo dpkg --configure -a
 
 sudo apt install ufw
 sudo apt install git-all
